@@ -24,14 +24,29 @@
                     </a>
                 </div>
 
-
-                <!--Enlaces-->
+                <!--Cuerpo de Menu-->
                 <div>
-                    <a href="">Favority</a>
-                    <a href="">Help</a>
-                    <a href="">Components</a>
-                    <a href="">Visitanos</a>
-                </div>
+                    <!--Boton responsive-->  
+                    
+                    <input type="checkbox" name="hamburger" id="hamburger" class="peer" hidden>
+                    <label for="hamburger" class="peer-checked:hamburger block z-20 cursor-pointer md:hidden transition p-5 hover:bg-gray-200 dark:hover:bg-slate-700 rounded">
+                        <div class="h-0.5 w-6 bg-black dark:bg-white transition"></div>
+                        <div class="mt-2 h-0.5 w-6 bg-black dark:bg-white transition"></div>
+                    </label>
+
+                    <!--Cuerpo de los enlaces-->
+                    
+                    <div class="bg-white dark:bg-slate-900 dark:md:bg-slate-800 w-3/5 shadow-xl transition flex flex-col justify-between fixed inset-0 translate-x-[-100%] peer-checked:translate-x-0 md:w-auto md:static md:shadow-none md:translate-x-0 md:flex-row">
+
+                        <!--Enlaces-->
+                        <div class="px-6 py-32 flex flex-col md:flex-row md:items-center gap-3 md:p-0">
+                            <a href="" class="tracking-wide cursor-pointer px-3 py-2 rounded font-semibold text-lg transition hover:text-white hover:bg-red-500">Home</a>
+                            <a href="" class="tracking-wide cursor-pointer px-3 py-2 rounded font-semibold text-lg transition hover:text-white hover:bg-pink-600">New Music</a>
+                            <a href="" class="tracking-wide cursor-pointer px-3 py-2 rounded font-semibold text-lg transition hover:text-white hover:bg-pink-600">News</a>
+                            <a href="" class="tracking-wide cursor-pointer px-3 py-2 rounded font-semibold text-lg transition hover:text-white hover:bg-pink-600">Help</a>
+                        </div>                       
+                    </div>
+                </div>               
             </div>
         </div>
     </nav>  
